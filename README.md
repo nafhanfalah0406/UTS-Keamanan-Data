@@ -8,16 +8,13 @@ PHP 8.1+ dengan ekstensi `openssl`, `pdo_sqlite`, `mbstring` (semua ada di XAMPP
 
 ## Menjalankan
 ```bash
-php tools/seed.php --reset      # buat pasangan kunci RSA, database, dan data demo
-php -S 127.0.0.1:8000 -t public public/index.php    # buka http://127.0.0.1:8000
-php tests/run_tests.php         # 15 tes otomatis (uji HTTP nyata)
+php tools/seed.php --reset      
+php -S 127.0.0.1:8000 -t public public/index.php    
+php tests/run_tests.php         
 ```
 Login admin: `/admin/login` -> tempel / pilih file `keys/private_key.pem`
 (`DEMO_private_key.pem` pada paket ZIP adalah kunci demo yang cocok dengan database contoh;
 salin ke `keys/private_key.pem` atau pilih langsung saat login).
-
-**XAMPP:** taruh folder ini di `htdocs/`, aktifkan `mod_rewrite`, buka `http://localhost/<folder>/`.
-Pastikan folder `database/` dan `storage/sessions/` dapat ditulis oleh web server.
 
 ## Alur keamanan
 1. Landing page: pendaftaran dienkripsi dengan **public key** sebelum masuk database.

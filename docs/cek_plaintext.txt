@@ -1,0 +1,8 @@
+Pencarian plaintext pada file banksampah.db (byte mentah):
+  'Siti Aminah': tidak ditemukan
+  'Budi Santoso': tidak ditemukan
+  '0812-0000': tidak ditemukan
+  'Melati': tidak ditemukan
+  'Plastik PET': tidak ditemukan
+  'Rina Marlina': tidak ditemukan
+Ukuran file DB: 45056 byte

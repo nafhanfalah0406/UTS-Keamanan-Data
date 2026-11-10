@@ -1,0 +1,29 @@
+[pendaftaran #1]
+  DB (terenkripsi): v1.wDO_ARTK3G7gs573jWoJUDGsS7j4AvS__0-YHFO-Ph_dckPExAta_wuJeVWGdcF2mqFI6v8J8h02bVudQ04KDGbxO4ggoXXbULKxi6KrsSx...
+  panjang blob    : 781 karakter
+  Dekripsi        : {"nama":"Rina Marlina","hp":"0812-0000-0010","alamat":"Jl. Anggrek No. 3, RT 02\/RW 04","pesan":"Ingin menyetor sampah plastik tiap minggu.","tanggal":"2026-11-09 16:20"}
+
+[pendaftaran #2]
+  DB (terenkripsi): v1.JwChVKbxGzQE4LESnbQz8HRbB1btKZ7_oYs51MhOiJRuv1r0Irwq-cA1e2C4LLXZljf-gsZRaktuGV71xMN2EDSyQvAh-rOKJckRyOeF6q8...
+  panjang blob    : 771 karakter
+  Dekripsi        : {"nama":"Hendra Wijaya","hp":"0812-0000-0011","alamat":"Jl. Flamboyan No. 15","pesan":"Apakah menerima minyak jelantah dari warung?","tanggal":"2026-11-09 16:20"}
+
+[nasabah #1]
+  DB (terenkripsi): v1.hXfx1PLVNCa4VPqd2K5chhCGq8Pxx6yhzIVLcRU078-VCeOsF3HZFaaC5-nhS6seygVkl9ctdK6XLW6tqN0uCQA7pODjE_p1ne0foUhTght...
+  panjang blob    : 709 karakter
+  Dekripsi        : {"nama":"Siti Aminah","hp":"0812-0000-0001","alamat":"Jl. Melati No. 12, RT 03\/RW 05","tanggal":"2026-11-01 08:00"}
+
+[nasabah #2]
+  DB (terenkripsi): v1.Plap-TOonEhADj-aGr5viy3GzN_Xk5kIahRnp55VzT92byIySislIFd_F-Bp5HrI-K842fjNz3tXvKZPOFZSo1-aBqyM-3ZR6RQKNAabZJ7...
+  panjang blob    : 711 karakter
+  Dekripsi        : {"nama":"Budi Santoso","hp":"0812-0000-0002","alamat":"Jl. Kenanga No. 7, RT 01\/RW 02","tanggal":"2026-11-01 08:00"}
+
+[setoran #1]
+  DB (terenkripsi): v1.VjJ7iQlombLXOm4yMbwfCuIMWvil97QbqV3uP3_SEhxxN_0onAQ0qrjXhEnGmQwpEluSA6rAHl0VPjCZNSiDczDhHb_JCkImcvG5D71PbdI...
+  panjang blob    : 724 karakter
+  Dekripsi        : {"nasabah_id":1,"jenis":"Plastik PET (botol)","berat":4.5,"harga":3500,"total":15750,"catatan":"","tanggal":"2026-11-03 09:10"}
+
+[setoran #2]
+  DB (terenkripsi): v1.yqvWmMNhMnNLnNB63NZWDZtmIF5322-g50gycRAmWb74JJHqTBtQa9hz_z1avvJwZ_F3XZFWnvFKU_RY7JlZ_GbVbefSeFWwUMBa6HaUDWO...
+  panjang blob    : 717 karakter
+  Dekripsi        : {"nasabah_id":1,"jenis":"Kertas \/ Kardus","berat":8,"harga":1800,"total":14400,"catatan":"","tanggal":"2026-11-05 15:40"}
